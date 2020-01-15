@@ -1,0 +1,45 @@
+.vehicles-container {
+    max-width: 600px;
+    margin: 0 auto;    
+    margin-top: 20px; 
+}
+
+.vehicle-content {
+    margin-bottom: 30px;
+    padding: 20px 15px 20px 15px;
+    letter-spacing: .01em;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.vehicle-body {
+    font-weight: 500;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.85);
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .vehicle-body {
+        font-size: 18px;
+    }
+}
+
+.separator {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #8899A6;
+}
+
+.vehicle-actions {
+    position: relative;
+    z-index: 1;
+    display: block;
+    line-height: 1.7;
+    font-size: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    max-width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
