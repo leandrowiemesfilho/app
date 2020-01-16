@@ -434,7 +434,7 @@ class VehicleList extends Component {
                 {
                     !this.state.isLoading && this.state.vehicles.length === 0 ? (
                         <div className="no-vehicles-found">
-                            <span>No vehicles found. Maybe you are dicconected.</span>
+                            <span>No vehicles found.</span>
                         </div>    
                     ): null
                 }  
